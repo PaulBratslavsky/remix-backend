@@ -5,7 +5,7 @@ services:
     plan: free
     # Update the following line with your Strapi GitHub repo
     repo: https://github.com/PaulBratslavsky/remix-backend
-    branch: master
+    branch: fix-issue
     buildCommand: yarn install && yarn build
     startCommand: yarn start
     healthCheckPath: /_health
